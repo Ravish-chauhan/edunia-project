@@ -22,7 +22,7 @@ mongoose
 
 // Test route
 app.get("/", (req, res) => {
-  res.send("Backend environment setup successful 🚀");
+  res.send("Backend environment setup successful");
 });
 
 const PORT = process.env.PORT || 5000;
